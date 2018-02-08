@@ -3,7 +3,7 @@
 (require 'cljs.repl.browser)
 
 (cljs.build.api/build "src/cljs"
-  {:main 'hfp.hello
+  {:main 'hfp.time
    :output-to "out/main.js"
    :browser-repl true
    :verbose true})

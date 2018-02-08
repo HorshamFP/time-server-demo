@@ -19,6 +19,11 @@ Leiningen and rlwrap. On a Mac this is a case of running:
 On Linux, I refer you to the official instructions here:
 https://clojure.org/guides/getting_started#_installation_on_linux
 
+You'll also need the ClojureScript jar file. Rather than distribute it
+in this repo you can pull it down using curl like so.
+
+    $ curl -O -L https://github.com/clojure/clojurescript/releases/download/r1.9.946/cljs.jar
+
 ## Usage
 
 These instructions are editor neutral. You do not need Emacs or Cider to

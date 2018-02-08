@@ -33,6 +33,7 @@ You should see a welcome message and a prompt that looks like this:
 
 At the prompt type the following and hit enter:
 
+    hfp.core=> (require 'hfp.core)
     hfp.core=> (def server (http/start-server date-handler {:port 5000}))
 
 That will start the websocket server.

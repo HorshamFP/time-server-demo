@@ -46,7 +46,7 @@ That will start the websocket server.
 To start the client, open up a second terminal in the project root
 directory and type the following:
 
-    $ rlwrap java -cp lib/cljs.jar:src clojure.main repl.clj
+    $ rlwrap java -cp cljs.jar:src clojure.main repl.clj
 
 That may look a little convoluted but it can be broken down as follows:
 
